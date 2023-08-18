@@ -1,4 +1,4 @@
-# HTML Semantico
+# HTML Semântico
 ## Dando significado à estrutura da aplicação
 Aqui vamos entender como estruturar nossa aplicação semanticamente.
 
