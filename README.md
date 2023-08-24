@@ -3,7 +3,7 @@
 Aqui vamos entender como estruturar nossa aplicação semanticamente.
 
 Texto em **negrito** com asteriscos duplo.
-
+ 
 Texto em __negrito__ com underscore duplo(underline).
 
 Texto em *itálico* com asteriscos.
