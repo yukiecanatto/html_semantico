@@ -1,9 +1,68 @@
- /*body {
-    color:crimson; 
-}*/
+body {
+    
+    /*margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px; */
 
-h2 {
-    color: firebrick;
+   /* margin: 20px 50px 20px 50px;*/
+
+   margin: 20px 50px;
+   background-color: rgb(255, 211, 169);
+
+   /* de todos os jeitos funcionam, os quatro valores, os quatro num só em sentido horário, e os dois que equivalem encima e embaixo, direita e esquerda*/
+}
+
+p{
+    line-height: 1.2;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.paragrafo-de-artigo {
+    background-color: #662549;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.titulo-de-pagina {
+    color: #662549;
     line-height: 2;
     font-weight: bold;
+    font-size: 24pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitulo-de-pagina {
+    color: #662549;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.titulo-de-artigo {
+    color: #AE445A;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-de-secao {
+    color: #F39F5A;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.autor-do-artigo {
+    color: #AE445A;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
