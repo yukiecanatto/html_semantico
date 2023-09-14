@@ -16,15 +16,31 @@ body {
 p{
     line-height: 1.2;
     text-align: justify;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
+
+
 
 .paragrafo-de-artigo {
     background-color: #662549;
     color: white;
     padding: 20px;
     border-radius: 20px;
+    margin: 0;
+    
 }
+
+.paragrafo-de-artigo + .paragrafo-de-artigo {
+    
+    padding-top: 0;
+    
+    /*border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;*/
+
+}
+
 
 .titulo-de-pagina {
     color: #662549;
@@ -34,7 +50,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.subtitulo-de-pagina {
+.subtitulo-de-pagina { 
     color: #662549;
     line-height: 1.5;
     font-weight: bold;
