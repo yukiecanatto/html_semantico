@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML | Exemplo de Semântica</title>
+</head>
+
+
+<body>
+    
+    <header>
+        
+        <!-- atalho de comentário: Ctrl + ; -->
+        <!-- Aqui vai o cabeçalho da página  -->
+
+        <nav>
+            <!-- Menu de navegação principal da página -->
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Já no main vai o conteúdo principal da página -->
+
+        <article>
+            <!-- Artigo ou conteúdo autocontido, não necessáriamente conectado ao assunto da página  -->
+        </article>
+
+        <article>
+
+           <header>
+            <!-- Cabeçalho do artigo -->
+            </header>
+            
+            <footer>
+                <!-- Rodapé o artigo -->
+            </footer>
+
+        </article>
+
+
+        <section>
+            <!-- Seção relacionada com o conteúdo do site  -->
+        </section>
+
+        <style>
+            table, tr, td, th {
+                border: 1px solid #000;
+            }
+        </style>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    
+                <!-- th: Table Heading(título de tabela) tr: Table Row(LINHA) td: Table Data(COLUNA), Atalho para criar colunas: td*3(vezes o numero que precisar) -->
+                <!-- Atalho de seleção para modificar varios elementos dos mesmos tipos, seleciona com o cursor, e depois digita CTRL + D, varias vezes até selecionar tudo o que se deseja -->
+                <!-- ALT + D + as setas para cima e para baixo para movimentar um trecho de código selecionado -->
+                    
+                    <th>Fruta</th>
+                    <th>Local</th>
+                    <th>Preço</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Banana</td>
+                    <td>Feira</td>
+                    <td>$ 7.00</td>
+                </tr>
+               
+                <tr>
+                    <td>Maçã</td>
+                    <td>Hortifruti</td>
+                    <td>$ 10.00</td>
+                </tr>
+
+            </tbody>
+
+            
+            <tfoot>
+                
+                <tr>
+                    <!-- colspan para mesclar duas células -->
+                    <td colspan="2">Total</td>
+                    <td>$ 17.00</td>
+                </tr>
+
+            </tfoot>
+
+
+
+        </table>
+        
+
+    </main>
+
+    <aside>
+
+        <!-- Conteúdo lateral (secundário), mas relacionado ao principal -->
+
+        <nav>
+            <!-- Menu de navegação lateral  -->
+        </nav>
+        
+    </aside>
+
+    <footer>
+
+        <!-- Aqui vai o rodapé da página -->
+
+        <nav>
+            <!-- Menu de navegação do rodapé -->
+        </nav>
+
+    </footer>
+
+</body>
+</html>
