@@ -25,12 +25,12 @@ p{
     background-color: #662549;
     color: white;
     padding: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     margin: 0;
     
 }
 
-.paragrafo-de-artigo + .paragrafo-de-artigo {
+.paragrafo-de-artigo ~ p {
     
     padding-top: 0;
     
@@ -41,6 +41,13 @@ p{
 
 }
 
+.paragrafo-de-artigo:first-of-type {
+    border-radius: 20px 20px 0 0;
+}
+
+.paragrafo-de-artigo:last-of-type {
+    border-radius: 0 0 20px 20px;
+}
 
 .titulo-de-pagina {
     color: #662549;
