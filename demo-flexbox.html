@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo do Flexbox</title>
+
+    <style>
+        /* a virgula (,) para por mais de uma classe, VIRGULA, E NÃO PONTO E VIRGULA */
+        .elemento-contido, .nao-contido {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border: 1px solid #000;
+            /* border tem de ter 3 propriedades: grossura px, tipo solid ou outra, e cor */
+            
+        }
+        
+        .nao-contido {
+            background-color: yellow;
+        }
+        
+        .elemento-container {
+            height: 400PX;
+            border: 1px solid #000;
+            
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center; /* justifica o texto no eixo principal, row ou column  */
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Título</h1>
+    <h2>Flexbox → Flexible Box - Caixa flexível</h2>
+    <!-- Setinha → = ALT + 26 -->
+    <!--  ← = ALT = + 27 -->
+    <!-- ↓ = ALT + 25 -->
+    <!-- ↑ = ALT + 24 -->
+    <!-- Atalho comentário = CTRL + ; -->
+
+    <!-- atalho emmit div. e o nome da classe, ele já cria a dic com a classe q vc digitar -->
+    <div class="elemento-container">
+
+        <div class="elemento-contido" style="order: 1;">1</div>
+        <div class="elemento-contido" style="order: 2;">2</div>
+        <div class="elemento-contido" style="order: 3;">3</div>
+        <div class="elemento-contido" style="order: 4;">4</div>
+        <div class="elemento-contido" style="order: 5;">5</div>
+        <div class="elemento-contido" style="order: 6;">6</div>
+        <div class="elemento-contido" style="order: 7;">7</div>
+         
+    </div>
+
+
+
+    <div class="nao-contido">N</div>
+    <div class="nao-contido">N</div>
+    <div class="nao-contido">N</div>
+    <div class="nao-contido">N</div>
+
+    
+
+
+
+</body>
+</html>

@@ -44,7 +44,8 @@ p{
 .paragrafo-de-artigo:first-of-type {
     border-radius: 20px 20px 0 0;
 }
-
+ 
+/* ainda não conseguimos resolver o B.O. das bordas inferiores */
 .paragrafo-de-artigo:last-of-type {
     border-radius: 0 0 20px 20px;
 }
